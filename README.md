@@ -23,7 +23,7 @@ Para este laboratório, reutilizei um hardware antigo (*legacy*) transformando-o
 | **Processador** | Intel Pentium Dual Core E2220 |
 | **Memória RAM** | 2GB RAM |
 | **Armazenamento 1** | SSD 240GB (Montado em `/`) |
-| **Armazenamento 2** | HD 240GB (Montado em `/home`) |
+| **Armazenamento 2** | HD 300GB (Montado em `/home`) |
 
 ---
 
