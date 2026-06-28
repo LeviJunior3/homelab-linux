@@ -1,40 +1,55 @@
-# Homelab Linux
+# 🐧 Homelab Linux
 
-Laboratório criado para estudar infraestrutura Linux.
+> Laboratório dedicado ao estudo prático de infraestrutura, redes e administração de sistemas Linux.
 
-## Objetivos
+---
 
-- Administração Linux
-- Redes
-- Bash
-- Automação
-- Serviços
-- Virtualização
+## 🎯 Objetivos do Aprendizado
+O foco deste ambiente é ganhar experiência hands-on nas seguintes áreas:
+* 🛠️ **Administração Linux** (Debian)
+* 🌐 **Redes** e Configurações de Interfaces
+* 📜 **Automação** com Bash Scripting
+* ⚙️ **Gerenciamento de Serviços** vitais
+* 📦 **Virtualização e Containerização**
 
-## Hardware
+---
 
-PC Semp Toshiba Info
-Intel Pentium Dual Core E2220
-2GB RAM
-SSD 240GB "/"
-HD 240GB "/home"
+## 🖥️ Especificações de Hardware
+Para este laboratório, reutilizei um hardware antigo (*legacy*) transformando-o em um servidor funcional:
 
-## Sistema
+| Componente | Detalhes |
+| :--- | :--- |
+| **Máquina** | PC Semp Toshiba Info |
+| **Processador** | Intel Pentium Dual Core E2220 |
+| **Memória RAM** | 2GB RAM |
+| **Armazenamento 1** | SSD 240GB (Montado em `/`) |
+| **Armazenamento 2** | HD 240GB (Montado em `/home`) |
 
-Debian 13 Trixie
+---
 
-## Serviços configurados
+## 💿 Sistema Operacional
+O laboratório roda a distribuição estável voltada para servidores:
+* **OS:** `Debian 13 Trixie`
 
-✅ SSH
+---
 
-✅ IP Estático
+## 🛠️ Status dos Serviços Configurados
 
-✅ Samba
+Abaixo está o mapa de progresso de ativação dos serviços no servidor:
 
-✅ Bash
+| Serviço | Status | Descrição Rápida |
+| :---: | :---: | :--- |
+| **SSH** | 🟢 Ativo | Acesso remoto seguro via terminal |
+| **IP Estático** | 🟢 Ativo | Endereçamento fixo para o servidor na rede local |
+| **Samba** | 🟢 Ativo | Compartilhamento de arquivos entre Linux/Windows |
+| **Bash** | 🟢 Ativo | Scripts de automação internos |
+| **DNS** | 🟢 Ativo | Resolução de nomes local |
+| **Docker** | 🟡 Em Breve | Deploy de containers e microserviços |
+| **DHCP** | 🟡 Em Breve | Distribuição dinâmica de IPs na rede |
 
-✅ DNS
+---
 
-⬜ Docker
-
-⬜ DHCP
+## 📁 Como navegar neste repositório
+*(Dica: Se você adicionar scripts criados por você no repositório, cite-os aqui)*
+* `/scripts` - Automações em Bash criadas para o servidor.
+* `/configs` - Arquivos de configuração de serviços (como `smb.conf` ou `sshd_config`).
