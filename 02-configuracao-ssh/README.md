@@ -58,6 +58,4 @@ ssh levi@192.168.1.104
 
 Assista abaixo à gravação da tela mostrando o processo completo de conexão e autenticação SSH do Windows para o servidor:
 
-<div align="center">
-  <video src="./01-instalacao-debian/acesso-ssh.mp4" width="80%" controls></video>
-</div>
+https://github.com/user-attachments/assets/b626d9a4-1de3-4b87-a927-34b908c029bc
