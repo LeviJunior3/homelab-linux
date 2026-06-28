@@ -48,8 +48,3 @@ Abaixo está o mapa de progresso de ativação dos serviços no servidor:
 | **DHCP** | 🟡 Em Breve | Distribuição dinâmica de IPs na rede |
 
 ---
-
-## 📁 Como navegar neste repositório
-*(Dica: Se você adicionar scripts criados por você no repositório, cite-os aqui)*
-* `/scripts` - Automações em Bash criadas para o servidor.
-* `/configs` - Arquivos de configuração de serviços (como `smb.conf` ou `sshd_config`).
