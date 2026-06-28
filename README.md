@@ -45,6 +45,6 @@ Abaixo está o mapa de progresso de ativação dos serviços no servidor:
 | **Bash** | 🟢 Ativo | Scripts de automação internos |
 | **DNS** | 🟢 Ativo | Resolução de nomes local |
 | **Docker** | 🟡 Em Breve | Deploy de containers e microserviços |
-| **DHCP** | 🟡 Em Breve | Distribuição dinâmica de IPs na rede |
+| **Firewall** | 🟡 Em Breve | Colocando segurança na rede |
 
 ---
