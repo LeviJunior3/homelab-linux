@@ -51,9 +51,3 @@ Valida se o servidor OpenSSH está ativo, em execução e escutando na porta cor
   <img src="systemctl%20status%20ssh.png" width="85%" alt="Status do serviço SSH">
 </div>
 
-### 📺 Demonstração Prática de Acesso
-Assista ao vídeo abaixo para acompanhar o fluxo completo de conexão remota ao terminal do Debian:
-
-<div align="center">
-  <video src="https://github.com" width="80%" controls></video>
-</div>
