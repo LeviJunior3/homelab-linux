@@ -1,16 +1,19 @@
 # 🐧 Homelab Linux
 
-> Laboratório dedicado ao estudo prático de infraestrutura, redes e administração de sistemas Linux.
+> Laboratório pessoal criado para desenvolver habilidades práticas em administração Linux, redes, serviços de infraestrutura e automação.
 
 ---
 
 ## 🎯 Objetivos do Aprendizado
-O foco deste ambiente é ganhar experiência hands-on nas seguintes áreas:
+
+O foco deste ambiente é desenvolver experiência prática nas seguintes áreas:
+
 * 🛠️ **Administração Linux** (Debian)
-* 🌐 **Redes** e Configurações de Interfaces
-* 📜 **Automação** com Bash Scripting
-* ⚙️ **Gerenciamento de Serviços** vitais
-* 📦 **Virtualização e Containerização**
+* 🌐 **Redes TCP/IP e configuração de interfaces**
+* 📜 **Automação de tarefas com Bash Scripting**
+* ⚙️ **Gerenciamento de serviços Linux**
+* 🔐 **Segurança e controle de acesso**
+* 📦 **Virtualização e Containerização** (planejado)
 
 ---
 
@@ -27,9 +30,15 @@ Para este laboratório, reutilizei um hardware antigo (*legacy*) transformando-o
 
 ---
 
+**Tipo de ambiente:** Servidor físico de laboratório (Bare Metal)
+
+**Objetivo:** Reaproveitamento de hardware antigo para simular um ambiente de servidor real.
+
+---
+
 ## 💿 Sistema Operacional
 O laboratório roda a distribuição estável voltada para servidores:
-* **OS:** `Debian 13 Trixie`
+* **OS:** `Debian 13 Trixie` (Ambiente de laboratório)
 
 ---
 
@@ -45,6 +54,6 @@ Abaixo está o mapa de progresso de ativação dos serviços no servidor:
 | **Bash** | 🟢 Ativo | Scripts de automação internos |
 | **DNS** | 🟢 Ativo | Resolução de nomes local |
 | **Docker** | 🟡 Em Breve | Deploy de containers e microserviços |
-| **Firewall** | 🟡 Em Breve | Colocando segurança na rede |
+| **Firewall (nftables/UFW)** | 🟡 Em Breve | Controle de tráfego e segurança do servidor |
 
 ---
