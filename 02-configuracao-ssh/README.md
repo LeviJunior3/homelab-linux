@@ -28,7 +28,9 @@ A configuração foi aplicada editando o arquivo de interfaces de rede localizad
 
 ```text
 # Configuração da interface de rede cabeada ens32
-auto eth0
+
+auto ens32
+
 iface ens32 inet static
     address 192.168.1.104
     netmask 255.255.255.0
