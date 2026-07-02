@@ -49,7 +49,7 @@ Durante os testes de configuração e leitura do arquivo principal (`cat /etc/ng
   ```
 * **Solução:** O comando `quit` encerra o processo do Nginx por completo. Para restabelecer o serviço e colocar o servidor online novamente, o binário foi chamado diretamente:
   ```bash
-  sudo nginx OU sudo systemctl start nginx
+  sudo systemctl start nginx
   ```
 
   ![Nginx Rodando](rodando_o_nginx.png)
