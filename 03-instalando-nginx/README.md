@@ -17,8 +17,14 @@ Após a instalação, foi validado que o serviço iniciou corretamente e foi ver
 # Verificar portas em escuta para confirmar o Nginx
 sudo ss -tulpn | grep LISTEN
 ```
+
+```bash
+tcp   LISTEN 0      511          0.0.0.0:80         0.0.0.0:*    users:(("nginx",pid=704,fd=5),("nginx",pid=703,fd=5),("nginx",pid=702,fd=5))
+
+tcp   LISTEN 0      511             [::]:80            [::]:*    users:(("nginx",pid=704,fd=6),("nginx",pid=703,fd=6),("nginx",
+```
 * **Resultado:** O serviço subiu escutando na porta **:80**.
-* **Acesso:** Validado com sucesso pelo navegador da máquina principal através do endereço `http://192.168.1.104:80`.
+* **Acesso:** Validado com sucesso pelo navegador da máquina principal através do endereço `http://192.168.1.145:80`.
 
 ---
 
@@ -50,6 +56,12 @@ Durante os testes de configuração e leitura do arquivo principal (`cat /etc/ng
 * **Solução:** O comando `quit` encerra o processo do Nginx por completo. Para restabelecer o serviço e colocar o servidor online novamente, o binário foi chamado diretamente:
   ```bash
   sudo systemctl start nginx
+  ```
+
+  ```bash
+  ● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) 53min ago
   ```
 
   ![Nginx Rodando](rodando_o_nginx.png)

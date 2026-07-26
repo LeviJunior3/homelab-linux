@@ -53,7 +53,7 @@ Abaixo está o mapa de progresso de ativação dos serviços no servidor:
 | **Samba** | 🟢 Ativo | Compartilhamento de arquivos entre Linux/Windows |
 | **Bash** | 🟢 Ativo | Scripts de automação internos |
 | **DNS** | 🟢 Ativo | Resolução de nomes local |
+| **Firewall (nftables)** | 🟢 Ativo | Controle de tráfego e segurança do servidor |
 | **Docker** | 🟡 Em Breve | Deploy de containers e microserviços |
-| **Firewall (nftables/UFW)** | 🟡 Em Breve | Controle de tráfego e segurança do servidor |
 
 ---

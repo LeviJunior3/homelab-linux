@@ -22,7 +22,7 @@ sudo systemctl status ssh
 ```
 
 ### 📌 Configuração de IP Estático (Direto no Linux)
-Como o servidor não possui tela ou teclado, se o IP fosse dinâmico (DHCP), ele mudaria a cada reinicialização, quebrando o acesso remoto. Para garantir consistência, o IP foi fixado diretamente no sistema operacional do servidor como `192.168.1.104`.
+Como o servidor não possui tela ou teclado, se o IP fosse dinâmico (DHCP), ele mudaria a cada reinicialização, quebrando o acesso remoto. Para garantir consistência, o IP foi fixado diretamente no sistema operacional do servidor como `192.168.1.145`.
 
 A configuração foi aplicada editando o arquivo de interfaces de rede localizado em `/etc/network/interfaces`:
 
@@ -32,7 +32,7 @@ A configuração foi aplicada editando o arquivo de interfaces de rede localizad
 auto ens32
 
 iface ens32 inet static
-    address 192.168.1.104
+    address 192.168.1.145
     netmask 255.255.255.0
     gateway 192.168.1.1
     dns-nameservers 1.1.1.1 8.8.8.8
@@ -51,13 +51,5 @@ sudo systemctl restart networking
 Com o servidor conectado à rede, abra o terminal do Windows (Prompt de Comando, PowerShell ou Windows Terminal) e execute o comando de conexão estável:
 
 ```bash
-ssh levi@192.168.1.104
+ssh levi@192.168.1.145
 ```
-
----
-
-## 🎥 3. Demonstração em Vídeo
-
-Assista abaixo à gravação da tela mostrando o processo completo de conexão e autenticação SSH do Windows para o servidor:
-
-https://github.com/user-attachments/assets/b626d9a4-1de3-4b87-a927-34b908c029bc
