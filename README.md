@@ -54,6 +54,7 @@ Abaixo está o mapa de progresso de ativação dos serviços no servidor:
 | **Bash** | 🟢 Ativo | Scripts de automação internos |
 | **DNS** | 🟢 Ativo | Resolução de nomes local |
 | **Firewall (nftables)** | 🟢 Ativo | Controle de tráfego e segurança do servidor |
+| **Ansible** | 🟡 Estudando | Ferramenta de automação de TI  |
 | **Docker** | 🟡 Em Breve | Deploy de containers e microserviços |
 
 ---
