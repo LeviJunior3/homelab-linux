@@ -28,7 +28,7 @@ tmpfs           197M  4,0K  197M   1% /run/user/1000
 Verifica a quantidade de memória RAM física e partições Swap disponíveis e em uso.
 ```bash
                total       usada       livre    compart.  buff/cache  disponível
-Mem.:          1,9Gi       258Mi       1,6Gi       3,7Mi       189Mi       1,7Gi
+Mem.:          3,8Gi       557Mi       2,7Gi       4,0Mi       799Mi       3,3Gi
 Swap:          3,8Gi          0B       3,8Gi
 ```
 
