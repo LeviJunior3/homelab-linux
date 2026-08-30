@@ -24,7 +24,7 @@ Para este laboratório, reutilizei um hardware antigo (*legacy*) transformando-o
 | :--- | :--- |
 | **Máquina** | PC Semp Toshiba Info |
 | **Processador** | Intel Pentium Dual Core E2220 |
-| **Memória RAM** | 2GB RAM |
+| **Memória RAM** | 4GB RAM |
 | **Armazenamento 1** | SSD 240GB (Montado em `/`) |
 | **Armazenamento 2** | HD 300GB (Montado em `/home`) |
 
